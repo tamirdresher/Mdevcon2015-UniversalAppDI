@@ -1,0 +1,4 @@
+namespace MdevconUniversal.Common.Domain
+{
+   
+}

@@ -1,0 +1,70 @@
+﻿<Page x:Class="MdevconUniversal.ViewModels.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:MdevconUniversal.ViewModels"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <Page.Resources>
+        <CollectionViewSource x:Name="lectureDays"
+                               Source="{Binding Lectures}"
+                              IsSourceGrouped="true" />
+    </Page.Resources>
+    <Grid Margin="0,20,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/> 
+            <RowDefinition Height="*"/> 
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="pageTitle"
+                   Text="Mdevcon"
+                   Style="{StaticResource HeaderTextBlockStyle}"
+                   IsHitTestVisible="false"
+                   TextWrapping="NoWrap"
+                   VerticalAlignment="Bottom"
+                   Margin="0,0,30,40" />
+        <Grid Grid.Row="1" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <GridView ItemsSource="{Binding Source={StaticResource lectureDays}}" SelectionMode="None">
+            <GridView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}"
+                                  Margin="0">
+                                <TextBlock Text='{Binding DayTitle}'
+                                           Foreground="Gray"
+                                           FontSize="25"
+                                           Margin="5" />
+                            </Grid>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+
+                </GroupStyle>
+            </GridView.GroupStyle>
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderThickness="1" Width="200"
+                            BorderBrush="OrangeRed" Tapped="OnLectureItemTapped">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock TextWrapping="WrapWholeWords"
+                                       Text="{Binding Name}"></TextBlock>
+
+                            <Border Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                Margin="5" 
+                                    Background="PaleVioletRed">
+                                <TextBlock Text="{Binding Type}"></TextBlock>
+                            </Border>
+                        </Grid>
+
+                    </Border>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+    </Grid>
+    </Grid>
+   
+</Page>
