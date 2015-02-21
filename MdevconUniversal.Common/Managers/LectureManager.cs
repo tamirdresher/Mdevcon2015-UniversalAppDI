@@ -17,10 +17,9 @@ namespace MdevconUniversal.Common.Managers
     {
         private readonly IMdevconService _mdevconService;
 
-        public LectureManager()
+        public LectureManager(IMdevconService mdevconService)
         {
-            //_mdevconService = new MdevconService.MdevconService();
-            _mdevconService = new DummyMdevconService();
+            _mdevconService = mdevconService;
         }
 
         public async Task<IEnumerable<Lecture>> GetAllLecturesAsync()

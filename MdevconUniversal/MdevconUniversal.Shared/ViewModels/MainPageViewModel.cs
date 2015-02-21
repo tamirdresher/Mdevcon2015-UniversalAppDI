@@ -33,10 +33,11 @@ namespace MdevconUniversal.ViewModels
             }
         }
 
-        public MainPageViewModel()
+        public MainPageViewModel(ILectureManager lectureManager , 
+            INavigationService navigationService)
         {
-            _lectureManager = new LectureManager();
-            _navigationService = new NavigationService(Window.Current.Content as Frame);
+            _lectureManager = lectureManager;
+            _navigationService = navigationService; 
             Lectures = new ObservableCollection<LectureDay>();
         }
 

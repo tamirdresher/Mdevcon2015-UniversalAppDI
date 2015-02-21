@@ -16,6 +16,9 @@ using Windows.UI.Xaml.Navigation;
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 using Autofac;
 using MdevconUniversal.Common.Domain;
+using MdevconUniversal.Common.Managers;
+using MdevconUniversal.Common.MdevconService;
+using MdevconUniversal.Navigation;
 
 namespace MdevconUniversal.ViewModels
 {
@@ -28,7 +31,8 @@ namespace MdevconUniversal.ViewModels
 
         public MainPage()
         {
-            _mainPageViewModel = new MainPageViewModel();
+            _mainPageViewModel = new MainPageViewModel(new LectureManager(new DummyMdevconService()),  
+                new NavigationService(Window.Current.Content as Frame));
             DataContext = _mainPageViewModel;
             Loaded += (_, __) => _mainPageViewModel.ViewLoaded();
             this.InitializeComponent();
