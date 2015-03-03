@@ -1,4 +1,0 @@
-namespace MdevconUniversal.Common.Domain
-{
-   
-}
