@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="MdevconUniversal.ViewModels.LecturePageViewModel" Collapsed="true">
+    <Position X="2.25" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAiAAAAAAAgAAQAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>C:\gittfs\Lects\mdevcon\MdevconUniversal - NO DI\MdevconUniversal\MdevconUniversal.Shared\ViewModels\LecturePageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MdevconUniversal.ViewModels.MainPageViewModel" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAAAAAIARgCAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>C:\gittfs\Lects\mdevcon\MdevconUniversal - NO DI\MdevconUniversal\MdevconUniversal.Shared\ViewModels\MainPageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MdevconUniversal.Common.Managers.LectureManager" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="1.5" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MdevconUniversal.Common.MdevconService.MdevconService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="1.75" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MdevconUniversal.Views.LecturePage" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\gittfs\Lects\mdevcon\MdevconUniversal - NO DI\MdevconUniversal\MdevconUniversal.Shared\Views\LecturePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MdevconUniversal.ViewModels.MainPage" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>C:\gittfs\Lects\mdevcon\MdevconUniversal - NO DI\MdevconUniversal\MdevconUniversal.Shared\Views\MainPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="7.8" />
+</ClassDiagram>

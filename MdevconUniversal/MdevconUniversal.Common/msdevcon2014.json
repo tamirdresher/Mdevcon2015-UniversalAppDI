@@ -1,0 +1,295 @@
+{
+    "eventName": "Mdevcon 2015",
+    "startDate": "2015-03-05T08:00:00Z",
+    "endDate": "2015-03-06T22:00:00Z",
+    "apiEndpoint": "https:\/\/api.egeniq.com",
+    "joindInApiEndpoint": "https:\/\/api.joind.in\/v2.1",
+    "joindInId": 3463,
+    "welcomeText": "The Egeniq team welcomes you to {{eventName}}!",
+    "locations": {
+        "tuschinski": {
+            "id": "tuschinski",
+            "name": "Tuschinski",
+            "latitude": 52.36619,
+            "longitude": 4.894596,
+            "rooms": {
+                "tuschinski1": {
+                    "name": "Tuschinski 1",
+                    "beacons": [{
+                        "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                        "major": 4,
+                        "minor": 1
+                    }, {
+                        "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                        "major": 4,
+                        "minor": 2
+                    }]
+                },
+                "tuschinski2": {
+                    "name": "Tuschinski 2",
+                    "beacons": [{
+                        "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                        "major": 5,
+                        "minor": 1
+                    }, {
+                        "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                        "major": 5,
+                        "minor": 2
+                    }]
+                },
+                "tuschinski3": {
+                    "name": "Tuschinski 3",
+                    "beacons": [{
+                        "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                        "major": 6,
+                        "minor": 1
+                    }, {
+                        "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                        "major": 6,
+                        "minor": 2
+                    }]
+                }
+            }
+        },
+        "nh": {
+            "id": "nh",
+            "name": "NH Carlton",
+            "latitude": 52.366348,
+            "longitude": 4.8931,
+            "rooms": {
+                "nh2": {
+                    "name": "Tutorial 1",
+                    "beacons": [{
+                        "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                        "major": 1,
+                        "minor": 1
+                    }, {
+                        "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                        "major": 1,
+                        "minor": 2
+                    }]
+                },
+                "nh3": {
+                    "name": "Tutorial 2",
+                    "beacons": [{
+                        "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                        "major": 2,
+                        "minor": 1
+                    }, {
+                        "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                        "major": 2,
+                        "minor": 2
+                    }]
+                },
+                "nh4": {
+                    "name": "Tutorial 3",
+                    "beacons": [{
+                        "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                        "major": 3,
+                        "minor": 1
+                    }, {
+                        "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                        "major": 3,
+                        "minor": 2
+                    }]
+                }
+            }
+        }
+    },
+    "tracks": {
+        "tuschinski1": {
+            "name": "Tuschinski 1",
+            "location": "tuschinski",
+            "room": "tuschinski1",
+            "date": "2015-03-06",
+            "sort": 4
+        },
+        "tuschinski2": {
+            "name": "Tuschinski 2",
+            "location": "tuschinski",
+            "room": "tuschinski2",
+            "date": "2015-03-06",
+            "sort": 5
+        },
+        "tuschinski3": {
+            "name": "Tuschinski 3",
+            "location": "tuschinski",
+            "room": "tuschinski3",
+            "date": "2015-03-06",
+            "sort": 6
+        },
+        "tutorials1": {
+            "name": "Tutorials 1",
+            "location": "nh",
+            "room": "nh2",
+            "date": "2015-03-05",
+            "sort": 1,
+            "sessions": [{
+                "talkTitle": "Building cross-platform mobile apps using Visual Studio, C# and Xamarin",
+                "urlFriendlyTalkTitle": "building-cross-platform-mobile-apps-using-visual-studio-c-and-xamarin",
+                "talkDescription": "With the Windows Runtime, getting apps out to customers on any Windows device has become more developer-friendly than ever. The universal Windows app approach allows you to develop using a unified programming model and IDE (Visual Studio) that will lead to apps that can be published to the Windows Store and Windows Phone Store.\nParticipants of this session will learn the fundamentals of developing universal Windows apps with Visual Studio, based on the C#\/XAML framework of the Windows Runtime. A practical approach will be taken, creating an app that will leverage the core platform and UI as well as advanced scenarios such as file and database storage, network and sensor interaction, tiles, notifications and background operations. Extending this architecture into cross-platform app development towards iOS and Android devices will also be on the agenda, explaining how Xamarin as a platform can help streamline development across multiple platforms and devices.\n\nKey takeaways of this session:\n\nHaving the knowledge of universal Windows app development fundamentals\nBeing able to decide on the application architecture to streamline development\nUnderstanding how to extend the base application architecture to other platforms and devices.\n\nPrerequisites:\n\nKnowledge:\n\n- Basic understanding of application programming, preferably in C# and XAML\n- Understanding core concepts of mobile app development (asynchronous, mobile design, sensors, low power\/battery consumption)\n\nTechnology:\n\n- A PC\/Mac running Windows 8.1, virtual machines acceptable with certain constraints * (Evaluation version available at https:\/\/technet.microsoft.com\/en-us\/evalcenter\/hh699156.aspx)\n- Visual Studio Community 2013 or better (http:\/\/www.visualstudio.com\/en-us\/news\/vs2013-community-vs.aspx).\n- Xamarin Platform (trial available at http:\/\/xamarin.com\/download)\n\n*) Running in a virtual machine may prohibit the use of the Windows Phone emulator when using certain technologies\n\nPlatforms: ios, android, win",
+                "type": "Workshop",
+                "startDate": "2015-03-05T09:00:00+01:00",
+                "duration": 210,
+                "stub": "d3375",
+                "averageRating": 0,
+                "commentsEnabled": 0,
+                "commentCount": 0,
+                "starred": false,
+                "starredCount": 0,
+                "speakers": [{
+                    "speakerName": "Rajen Kishna"
+                }],
+                "uri": "https:\/\/api.joind.in\/v2.1\/talks\/13686",
+                "verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/13686?verbose=yes",
+                "websiteUri": "http:\/\/joind.in\/talk\/view\/13686",
+                "commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/13686\/comments",
+                "starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/13686\/starred",
+                "verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/13686\/comments?verbose=yes",
+                "eventUri": "https:\/\/api.joind.in\/v2.1\/events\/3463",
+                "platforms": []
+            }, {
+                "talkTitle": "Innovation Games - Solving The Problems Of The Future",
+                "urlFriendlyTalkTitle": "innovation-games---solving-the-problems-of-the-future",
+                "talkDescription": "Have you ever seen an innovative product or feature and think \u201cWhy didn\u2019t I think of that?\u201d It\u2019s not always easy to coming up with innovative features or products.\n\nWhat if \u201cthinking outside the box\u201d is a skill rather than a talent? The good news is: Skills can be learned!\n\nIn this workshop you\u2019ll have the opportunity to craft an original feature & product concept using multiple design gaming techniques.\n\nThis workshop will be fast moving and group oriented.\n\nParticipants will learn:\n\n* How to tap their own creativity under pressure\n* How to motivate a team in another direction\n* Find a creative solution to user or real world problems\n* Design game techniques that help break through stuck thinking\n\nWho should attend: Anyone interested in learning a few pragmatic techniques that drive creative ideas and product innovation.\n\nPlatforms: ios, android, win",
+                "type": "Workshop",
+                "startDate": "2015-03-05T13:30:00+01:00",
+                "duration": 210,
+                "stub": "fb272",
+                "averageRating": 0,
+                "commentsEnabled": 0,
+                "commentCount": 0,
+                "starred": false,
+                "starredCount": 0,
+                "speakers": [{
+                    "speakerName": "Ben Sykes"
+                }],
+                "uri": "https:\/\/api.joind.in\/v2.1\/talks\/13691",
+                "verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/13691?verbose=yes",
+                "websiteUri": "http:\/\/joind.in\/talk\/view\/13691",
+                "commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/13691\/comments",
+                "starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/13691\/starred",
+                "verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/13691\/comments?verbose=yes",
+                "eventUri": "https:\/\/api.joind.in\/v2.1\/events\/3463",
+                "platforms": []
+            }]
+        },
+        "tutorials2": {
+            "name": "Tutorials 2",
+            "location": "nh",
+            "room": "nh3",
+            "date": "2015-03-05",
+            "sort": 2,
+            "sessions": [{
+                "talkTitle": "Real-time, automatic synchronization between a mobile device and a server",
+                "urlFriendlyTalkTitle": "real-time-automatic-synchronization-between-a-mobile-device-and-a-server",
+                "talkDescription": "Most mobile apps we develop these days requires access to data hosted on the web. And with this need comes the pain to manage network access, or the lack thereof. This usually leads developers on the path to offline sync.\n\nWe\u2019ll take you through the basics of working with Couchbase Mobile, including:\n\n- Use cases for Couchbase Mobile\n- Building a simple Android app that stores data in Couchbase Mobile\n- How to use Couchbase Mobile\u2019s automatic syncing between devices and your database servers.\n\nPlatforms: android",
+                "type": "Workshop",
+                "startDate": "2015-03-05T09:00:00+01:00",
+                "duration": 210,
+                "stub": "03088",
+                "averageRating": 0,
+                "commentsEnabled": 0,
+                "commentCount": 0,
+                "starred": false,
+                "starredCount": 0,
+                "speakers": [{
+                    "speakerName": "Laurent Doguin"
+                }],
+                "uri": "https:\/\/api.joind.in\/v2.1\/talks\/13687",
+                "verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/13687?verbose=yes",
+                "websiteUri": "http:\/\/joind.in\/talk\/view\/13687",
+                "commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/13687\/comments",
+                "starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/13687\/starred",
+                "verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/13687\/comments?verbose=yes",
+                "eventUri": "https:\/\/api.joind.in\/v2.1\/events\/3463",
+                "platforms": []
+            }, {
+                "talkTitle": "Appium: Mobile Automation Made Awesome",
+                "urlFriendlyTalkTitle": "appium-mobile-automation-made-awesome",
+                "talkDescription": "Appium is an open-source, cross-platform and multi-language mobile automation framework. In this tutorial we\u2019ll focus on using Appium to write functional tests for iOS and Android mobile web, hybrid, and native apps. Beginning with an expanded introduction to Appium concepts, participants will learn about the WebDriver protocol and the mobile-specific extensions Appium has added to make automating mobile apps more effective. We\u2019ll discuss the various library methods that are available for the programming language we\u2019ll use in the tutorial and strategies for writing robust tests. Finally, we\u2019ll employ these newly-learned skills by running our tests on iOS simulators and Android emulators hosted in the Sauce Labs test cloud.\n\nPlatforms: android, ios, win",
+                "type": "Workshop",
+                "startDate": "2015-03-05T13:30:00+01:00",
+                "duration": 210,
+                "stub": "286b4",
+                "averageRating": 0,
+                "commentsEnabled": 0,
+                "commentCount": 0,
+                "starred": false,
+                "starredCount": 0,
+                "speakers": [{
+                    "speakerName": "Jonathan Lipps"
+                }],
+                "uri": "https:\/\/api.joind.in\/v2.1\/talks\/13690",
+                "verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/13690?verbose=yes",
+                "websiteUri": "http:\/\/joind.in\/talk\/view\/13690",
+                "commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/13690\/comments",
+                "starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/13690\/starred",
+                "verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/13690\/comments?verbose=yes",
+                "eventUri": "https:\/\/api.joind.in\/v2.1\/events\/3463",
+                "platforms": []
+            }]
+        },
+        "tutorials3": {
+            "name": "Tutorials 3",
+            "location": "nh",
+            "room": "nh4",
+            "date": "2015-03-05",
+            "sort": 3,
+            "sessions": [{
+                "talkTitle": "iOS Testing: Beyond the Model",
+                "urlFriendlyTalkTitle": "ios-testing-beyond-the-model",
+                "talkDescription": "Unit testing on iOS has always been a challenge, mainly because the ViewController creates a mix of UI and non-UI code. But, it\u2019s totally possible to achieve good levels of coverage on view code for iOS, and this talk will cover some strategies for doing so. Including: splitting up a ViewController to make a seam, verifying button actions, dealing with [self navigationController], and handling asynchronous code. During the tutorial we will break and test an app, and look at all the tools we use in the process.\n\nPlatforms: ios",
+                "type": "Workshop",
+                "startDate": "2015-03-05T09:00:00+01:00",
+                "duration": 210,
+                "stub": "0eefa",
+                "averageRating": 0,
+                "commentsEnabled": 0,
+                "commentCount": 0,
+                "starred": false,
+                "starredCount": 0,
+                "speakers": [{
+                    "speakerName": "Cate Huston"
+                }],
+                "uri": "https:\/\/api.joind.in\/v2.1\/talks\/13688",
+                "verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/13688?verbose=yes",
+                "websiteUri": "http:\/\/joind.in\/talk\/view\/13688",
+                "commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/13688\/comments",
+                "starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/13688\/starred",
+                "verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/13688\/comments?verbose=yes",
+                "eventUri": "https:\/\/api.joind.in\/v2.1\/events\/3463",
+                "platforms": []
+            }, {
+                "talkTitle": "Swift Primer",
+                "urlFriendlyTalkTitle": "swift-primer",
+                "talkDescription": "Swift is a new and powerful programming language used to create iOS and OSX applications. It\u2019s a clear, clean language that looks like a strongly typed version of Python. Experienced developers can learn the language quickly, while new developers will find the language clear enough to create their first lines of code.\n\nIn this session, Mark Lassoff, best selling author of Swift Fundamentals: The Language of iOS will go over the basics of the Swift Programming language and how the language can be used to create iOS Applications. Participants will be encouraged to code-along with the presenter as they create three basic apps during the course: The Chuck Norris Joke Generator, A \u201c\u201dNext Train\u201d\" App and a simple game.\n\nParticipants will leave with better command of the Swift Programming Language and be positioned to transition to Swift and iOS Native development after the workshop.\n\nPlatforms: ios",
+                "type": "Workshop",
+                "startDate": "2015-03-05T13:30:00+01:00",
+                "duration": 210,
+                "stub": "44674",
+                "averageRating": 0,
+                "commentsEnabled": 0,
+                "commentCount": 0,
+                "starred": false,
+                "starredCount": 0,
+                "speakers": [{
+                    "speakerName": "Mark Lassoff"
+                }],
+                "uri": "https:\/\/api.joind.in\/v2.1\/talks\/13689",
+                "verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/13689?verbose=yes",
+                "websiteUri": "http:\/\/joind.in\/talk\/view\/13689",
+                "commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/13689\/comments",
+                "starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/13689\/starred",
+                "verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/13689\/comments?verbose=yes",
+                "eventUri": "https:\/\/api.joind.in\/v2.1\/events\/3463",
+                "platforms": []
+            }]
+        },
+        "socials": {
+            "name": "Social Track",
+            "sort": 7
+        }
+    },
+    "description": "The conference for app developers by app developers. "
+}

@@ -1,0 +1,440 @@
+{
+	"eventName": "Endpoint Conference 2014",
+	"startDate": "2014-09-05T07:00:00Z",
+	"endDate": "2014-09-05T22:00:00Z",
+	"apiEndpoint": "https:\/\/api.egeniq.com",
+	"joindInApiEndpoint": "https:\/\/api.joind.in\/v2.1",
+	"joindInId": 2487,
+	"welcomeText": "The Egeniq team welcomes you to {{eventName}}!",
+	"locations": {
+		"tuschinski": {
+			"id": "tuschinski",
+			"name": "Tuschinski",
+			"latitude": 52.36619,
+			"longitude": 4.894596,
+			"rooms": {
+				"tuschinski1": {
+					"name": "Tuschinski 1",
+					"beacons": [{
+						"UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+						"major": 4,
+						"minor": 2
+					},
+					{
+						"UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+						"major": 4,
+						"minor": 333
+					}]
+				},
+				"tuschinski3": {
+					"name": "Tuschinski 3",
+					"beacons": [{
+						"UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+						"major": 4,
+						"minor": 1
+					},
+					{
+						"UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+						"major": 6,
+						"minor": 333
+					}]
+				}
+			}
+		}
+	},
+	"tracks": {
+		"tuschinski1": {
+			"name": "Tuschinski 1",
+			"location": "tuschinski",
+			"room": "tuschinski1",
+			"date": "2014-09-05",
+			"sort": 4,
+			"sessions": [{
+				"talkTitle": "Scaling the LinkedIn platform",
+				"urlFriendlyTalkTitle": "scaling-the-linkedin-platform",
+				"talkDescription": "Initially launched in 2009, the LinkedIn Platform has grown to well over 100,000 registered applications servicing over 172 million API calls per day. The presentation will cover topics on how LinkedIn has scaled our APIs to support the developer community. Specific topics will include:\n\n* Details of our framework (how we handle authentication, rate limiting, and access controls\/permission)\n* Developer Program Management (onboarding partners, management of external developers and providing developer support)\n* Operability and monitoring & alerting (how we keep the platform up 24\/7)\n\nAbout Kamyar: \n\nKamyar currently leads the Developer Relations team at LinkedIn. He\u2019s served as Senior Partner Engineer over the past two years, helping shape the LinkedIn platform as well as lead some of our most strategic partnerships with Apple and Samsung, to name a few. Previously he built the first public facing APIs at MySpace and worked to get mobile partners such as BlackBerry to integrate on the platform.\n\n",
+				"type": "Keynote",
+				"startDate": "2014-09-05T09:00:00+02:00",
+				"duration": 50,
+				"stub": "0e068",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "Kamyar Mohager"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11723",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11723?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11723",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11723\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11723\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11723\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			},
+			{
+				"talkTitle": "Metrics and an application log: your new best friends",
+				"urlFriendlyTalkTitle": "metrics-and-an-application-log-your-new-best-friends",
+				"talkDescription": "Do you remember the time you spent an afternoon putting print statements in your API trying to debug an issue and removed them before shipping the fix, only to add them back in a day later to work on another issue? Wouldn\u2019t it be great if those debug statements could just stay in your code forever? Like a little gift that keeps on giving, not just for you, but for everyone else on your team too.\n\nThat\u2019s what an application log is for! Logs aren\u2019t just for when things go wrong. They\u2019re for helping you to keep track of what\u2019s going on within your application.\n\nWe take a look at how you can add helpful messages throughout your codebase and leave them there, even in production! We\u2019ll cover common logging strategies, log aggregation and how to efficiently work with your logs to get the data back out again.\n\nWe\u2019ll also take a look at metrics solutions such as Graphite tMichael is a software engineer at DataSift in the UK. He has worked in a few small companies since graduating, writing code, documentation and administering servers (and everything in between).\n\nAt DataSift, Michael is part of the team that keeps the platform running. With around a billion interactions per day, it\u2019s important that they keep things running fast. This involves developing a platform using a service oriented architecture, which means that he\u2019s working with API\u2019s (building and consuming them) each and every day.hat can help augment your logs to help work out what was going on by correlating event logs with peaks\/drops in other monitoring systems.\n\nAbout Michael:\n\nMichael is a software engineer at DataSift in the UK. He has worked in a few small companies since graduating, writing code, documentation and administering servers (and everything in between).\n\nAt DataSift, Michael is part of the team that keeps the platform running. With around a billion interactions per day, it\u2019s important that they keep things running fast. This involves developing a platform using a service oriented architecture, which means that he\u2019s working with API\u2019s (building and consuming them) each and every day.",
+				"type": "Talk",
+				"startDate": "2014-09-05T09:50:00+02:00",
+				"duration": 50,
+				"stub": "250e8",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "Michael Heap"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11724",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11724?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11724",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11724\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11724\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11724\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			},
+			{
+				"talkTitle": "Building Better Clients",
+				"urlFriendlyTalkTitle": "building-better-clients",
+				"talkDescription": "RESTful web design is the current best practice model for building an API. This talk will focus on how we should be approach building clients for those services. Hypermedia is a powerful tool in the box for buildings clients that do not also happen to be web browsers and i\u2019d like to take the opportunity to present a way that focusses on building a client that can exploit this power. Approval times for an App Store need not be a blocker for introducing new functionality and you don\u2019t have to force everyone to upgrade to the latest client all the time if you follow a few rules. Keep as much logic out of the client as possible, and focus on link relations and their meaning. This session is recommended primarily for anyone who builds clients for HTTP web services but also those on the server side \u2013 looking to see how the other half live.\n\nAbout Ben:\n\nBen is CTO at Inviqa (Sheffield). He has many years of professional experience in a variety of programming languages including C, C++, Perl, Python and has been working with PHP for the last 8 years. Throughout his career he has worked at a variety of places in different industries; mobile marketing, data, ISP and in professional services all of which has given him diverse experience of software engineering in different fields.\n\nOutside of work he is a father, and with what little spare time he has left he can be found hacking one of his own projects (lots of ideas, not enough time!), playing on his PS3, or infrequently blogging on techPortal and his own personal blog at nocarrier.co.uk.",
+				"type": "Talk",
+				"startDate": "2014-09-05T11:00:00+02:00",
+				"duration": 50,
+				"stub": "506b6",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "Ben Longden"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11726",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11726?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11726",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11726\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11726\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11726\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			},
+			{
+				"talkTitle": "Decentralizing identity on the web by mixing OAuth and Bitcoin protocols",
+				"urlFriendlyTalkTitle": "decentralizing-identity-on-the-web-by-mixing-oauth-and-bitcoin-protocols",
+				"talkDescription": " OAuth is the most widely adopted protocol\/framework for Identity on the web, that powers authorizations between main platforms and 3rd-party apps. It has enabled, better than Openid, the fact to not share passwords between websites.\nBut OAuth is bad for the open web. OAuth concentrates the identity to trusted hubs (like facebook, Google etc\u2026) that on the long term keep users from controlling freely their data.\nWill you really connect your fridge via Facebook or Google? Or your car via Mercedes? Then when you change a car you lose all your data?\nBy decentralizing identity and authorizations to trustless network (like Bitcoin Blockchain), users and apps would benefit from a better architecture for Identity enabling both parties to avoid having middleman services.\nThe talk aims to present the technical draft of the implentation of the blockchain as the identity provider of the web.\n\nAbout Mehdi:\n\nMehdi is founder of OAuth.io and APIDays Conferences, respectively a platform for developers to integrate OAuth from APIs faster in their applications and widest conference on APIs worldwide (Paris, SF, Berlin, Barcelona)\nHe is working right now on a new web decentralized identity protocol for a better web browsing experience, business value for apps and consistency with the web network architecture.",
+				"type": "Talk",
+				"startDate": "2014-09-05T12:00:00+02:00",
+				"duration": 50,
+				"stub": "4ebce",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "Mehdi Medjaoui"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11728",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11728?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11728",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11728\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11728\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11728\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			},
+			{
+				"talkTitle": "How to Version Your API Without Losing Developers",
+				"urlFriendlyTalkTitle": "how-to-version-your-api-without-losing-developers",
+				"talkDescription": "We\u2019ll start with a survey of various versioning techniques used by major API providers and the pros and cons of each. Then we\u2019ll dive deep into what we do at Foursquare and lessons we\u2019ve learned from our specific approaches.\n\nAbout David:\n\nDavid is Foursquare\u2019s Developer Advocate, helping a community of over 50,000 developers build location-aware applications. He works with companies and apps of all sizes to ensure their Foursquare integrations are the best possible. People claim his snapchats aren\u2019t funny but he keeps sending them anyways.",
+				"type": "Talk",
+				"startDate": "2014-09-05T13:30:00+02:00",
+				"duration": 50,
+				"stub": "a2072",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "David Hu"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11730",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11730?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11730",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11730\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11730\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11730\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			},
+			{
+				"talkTitle": "Introducing Apigility",
+				"urlFriendlyTalkTitle": "introducing-apigility",
+				"talkDescription": "Apigility is a project that allows you to easily create a web service without having to worry about the nitty-gritty details. Which details? Well, Apigility will handle content negotiation, error handling, versioning and authentication for you, allowing you to concentrate on your application. In this introductory talk I look at what Apigility is and how it helps to create RESTful API applications, showing how to start using Apigility and how to publish an API using this tool.\n\nAbout Rob:\n\nRob Allen is a software developer and consultant with many years of web development experience using PHP and related technologies. He contributes to Zend Framework and other open source projects. A Zend Framework specialist, Rob is a member of the ZF Community team and also wrote Zend Framework in Action. He is UK-based and runs Nineteen Feet Limited, focussing on web development, training and consultancy.",
+				"type": "Talk",
+				"startDate": "2014-09-05T14:30:00+02:00",
+				"duration": 50,
+				"stub": "bc9c0",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "Rob Allen"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11732",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11732?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11732",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11732\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11732\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11732\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			},
+			{
+				"talkTitle": "Wrapping up an API with Ruby as you go",
+				"urlFriendlyTalkTitle": "wrapping-up-an-api-with-ruby-as-you-go",
+				"talkDescription": "As a supplier of an API or service, you need to make sure people can easily access and consume your API. You may also author helper libraries for your API or that may fall to the community. How the API works influences how easy it is to consume the API and therefore how easy an API wrapper is to write.\n\nIn this session we will look at an API from the perspective of building a helper library in Ruby. We\u2019ll take a look at how thinking about consuming the API can drive decisions in the design of the API, and make sure that your APIs can be as easy to use, to maintain and to evolve as possible\n\nAbout Phil:\n\nPhil is a developer evangelist for Twilio and a Ruby and JavaScript developer. He loves test coverage, great beer, hackathons, and gems with puns in their names. Get all four together for maximum points. He once made a pull request to Rails\u2026 it\u2019s still open.",
+				"type": "Talk",
+				"startDate": "2014-09-05T15:40:00+02:00",
+				"duration": 50,
+				"stub": "8bcf2",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "Phil Nash"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11734",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11734?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11734",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11734\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11734\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11734\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			},
+			{
+				"talkTitle": "JSON API \u2013 The tale of a media type",
+				"urlFriendlyTalkTitle": "json-api--the-tale-of-a-media-type",
+				"talkDescription": "In this talk, Steve will discuss the history and importance of JSON API, a standard format for creating APIs. Steve will talk about its history, why it matters, and how it can be your own personal anti-bikeshedding tool.\n\nAbout Steve:\n\nSteve is a prolific open source contributor, hypermedia enthusiast, author, and contracts with Mozilla to work on Rust. He\u2019s written the books \u201cDesigning Hypermedia APIs\u201d, \u201cRails 4 in Action\u201d and \u201cRust for Rubyists\u201d.\n\nSteve is one of the founders of the JSONapi.org initiative, well known for his work in the Ruby community and an invited speaker at tech conferences.",
+				"type": "Keynote",
+				"startDate": "2014-09-05T16:40:00+02:00",
+				"duration": 50,
+				"stub": "70598",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "Steve Klabnik"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11736",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11736?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11736",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11736\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11736\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11736\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			}]
+		},
+		"tuschinski3": {
+			"name": "Tuschinski 3",
+			"location": "tuschinski",
+			"room": "tuschinski3",
+			"date": "2014-09-05",
+			"sort": 6,
+			"sessions": [{
+				"talkTitle": "API design with Scala, Akka, and Spray",
+				"urlFriendlyTalkTitle": "api-design-with-scala-akka-and-spray",
+				"talkDescription": "I would like to guide the audience in a step by step journey, how to create reactive, modular, and scalable API using Scala, Akka, and Spray. As a concrete example, I will illustrate how to build an IoT ingestion API, and how to expose the realtime analytics via a dashboard built in angular.js, D3.js. This is an interesting case of what you can do with streaming computation and what can be achieved without even storing data, but just having data flowing from consumer to the producer endpoints.\n\nAbout Natalino:\n\nNatalino is currently Director of Data at ING, where he leads the definition, design and implementation of big\/fast data solutions for data-driven applications, such as personalized marketing and predictive analytics.\n\nAll-round Software Architect, Data Technologist, Innovator, with 15+ years experience in research, development and management of distributed architectures and scalable services and applications. Blogs regularly about big data, analytics, data science and scala reactive programming at natalinobusa.com.",
+				"type": "Talk",
+				"startDate": "2014-09-05T09:50:00+02:00",
+				"duration": 50,
+				"stub": "e4250",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "Natalino Busa"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11725",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11725?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11725",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11725\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11725\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11725\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			},
+			{
+				"talkTitle": "Asynchronous Web-API development with Python",
+				"urlFriendlyTalkTitle": "asynchronous-web-api-development-with-python",
+				"talkDescription": "Modern RESTful APIs typically prefer multiple lightweight requests to the backend instead of a single and heavy one, as it was in traditional web. However, not all backend systems are well suitable for it. Tornado and Node.js differ from many web frameworks in that they handle requests asynchronously, as both server and client. This helps to handle more request per second, and furthermore avoids all race condition problems known from threading, providing a high degree of concurrency and responsiveness. Taking a simple multi-tier setup as an example, this talk outlines how to write asynchronous code with Python and take advantage of Tornado\u2019s single-threaded server.\n\nAbout Anton:\n\nAnton has been programming with Python for more than 4 years, focusing on\nbackend and infrastructure. Currently he works at Skoobe, previously he was leading the development team at Couchfunk. Anton enjoys working with mobile and web applications, building clean and efficient API backends that scale well both on hardware and software level.",
+				"type": "Talk",
+				"startDate": "2014-09-05T11:00:00+02:00",
+				"duration": 50,
+				"stub": "e10c0",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "Anton Caceres"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11727",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11727?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11727",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11727\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11727\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11727\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			},
+			{
+				"talkTitle": "Testing Ivan The Terrible's API",
+				"urlFriendlyTalkTitle": "testing-ivan-the-terribles-api",
+				"talkDescription": "This talk will encompass multiple facets of testing APIs. Some of the area\u2019s covered:\n\n* Load testing, can your api handle anticipated\/unanticipated load?\n* Testing your api, does the api return random status codes? Test and make sure.\n* Automating testing and regression testing of your api.\n* Software testing in the cloud\n\nAbout Danny:\n\nDanny\u2019s api toolkit includes NodeJS, Swagger and Fiddler. Danny is the API team lead for TeamCFAdvance. TeamCFAdvance is a developer group focused on developing ColdFusion\/Railo projects. His team has written wrappers for various APIs including statdns.com, stelize.com, restcountries.eu. Danny has presented at developer conferences in Scotland, Germany and France and has previously covered software testing and security.",
+				"type": "Talk",
+				"startDate": "2014-09-05T12:00:00+02:00",
+				"duration": 50,
+				"stub": "9e741",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "Danny Dinneen"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11729",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11729?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11729",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11729\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11729\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11729\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			},
+			{
+				"talkTitle": "Service Oriented Architecture for robust and scalable systems",
+				"urlFriendlyTalkTitle": "service-oriented-architecture-for-robust-and-scalable-systems",
+				"talkDescription": "Software Architecture is hard. And when your business grows, its getting even harder because scaling doesn\u2019t come out the box and it\u2019s not only the software which grows it\u2019s also the team. So you have to find a way how to scale your software in a way that it stays easy maintainable for growing teams and scalable. I\u2019d like to talk about Service Oriented Architecture in general and also share some experience and give some examples where SOA would save your ass and maybe places where SOA isn\u2019t the best idea to implement.\n\nAbout Ole:\n\nOle Michaelis is the co-founder of SoCoded, a hackfest and web development conference in Hamburg. He\u2019s a Software Engineer at Jimdo, a DIY website creator, where he focuses on backend development. In his free time, he\u2019s building slidr.io, a hazzle-free slide sharing platform. Ole is passionate about open source software, enjoys traveling, and loves Mexican food. He classifies himself as a \u2018bad\u2019 German as he dislikes beer and soccer \u2013 the traditional German past-times.",
+				"type": "Talk",
+				"startDate": "2014-09-05T13:30:00+02:00",
+				"duration": 50,
+				"stub": "f61f5",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "Ole Michaelis"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11731",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11731?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11731",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11731\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11731\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11731\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			},
+			{
+				"talkTitle": "The Secret Life Of The Internet",
+				"urlFriendlyTalkTitle": "the-secret-life-of-the-internet",
+				"talkDescription": "The internet is fundamental to most mobile apps. Before and after our apps make their requests and parse the responses, an abundance of processes take place. A series of DNS queries to discover the right IP address to speak to, TCP making sure your app receives the complete response in the right order, a routing infrastructure to guide the packets to and from the servers, and much more.\n\nAs important as all these underlying processes are, they are often not well understood by developers. Sometimes their intricacies can cause issues for your users, and understanding them better can make debugging easier. In this session, you\u2019ll get an understanding of the stack that underlies your apps and how they can affect your work.\n\nAs there's so much to talk about, most of this session is interactive: through a slightly democratic process you get to decide what we're going to cover. Will we cover more subjects briefly, or will we go for the routing extravaganza? It's up to you!\n\nAbout Erik:\n\nErik Romijn is an independent app maker, making anything from APIs to iOS apps in independent projects and freelance work. He\u2019s an experienced presenter, particularly in making complex systems understandable and applicable for relatively inexperienced audiences.",
+				"type": "Talk",
+				"startDate": "2014-09-05T14:30:00+02:00",
+				"duration": 50,
+				"stub": "929df",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "Erik Romijn"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11733",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11733?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11733",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11733\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11733\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11733\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			},
+			{
+				"talkTitle": "Good API documentation is executable",
+				"urlFriendlyTalkTitle": "good-api-documentation-is-executable",
+				"talkDescription": "Tell me and I forget, teach me and I may remember, involve me and I learn.\u201d (Benjamin Franklin). Without any doubts we would agree that it\u2019s perfect to have a documentation set for our API that is both readable and executable.\nNow we\u2019re not in 90\u2032s any more and tools evolve with an unbelievable speed, yet barely anyone keeps his\/hers docs this way. Let\u2019s take a look at how to easily do that.\n\nAbout Wojtek:\n\nWojtek is Head of Engineering at Polidea, a mobile hardware\/software house. Wojtek invented MobileWarsaw, GitKata and Mobile Central Europe. He\u2019s also co-leader of Warsaw JUG and Warsjawa conference. He worked on Apphance Flow \u2013 an OS build tool for mobile and co-created a library for unit testing Android apps called RoboSpock.",
+				"type": "Talk",
+				"startDate": "2014-09-05T15:40:00+02:00",
+				"duration": 50,
+				"stub": "0865b",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [{
+					"speakerName": "Wojtek Erbetowski"
+				}],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11735",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11735?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11735",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11735\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11735\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11735\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			}]
+		},
+		"socials": {
+			"name": "Social Track",
+			"sort": 7,
+			"sessions": [{
+				"talkTitle": "Afterparty at Three Sisters Pub",
+				"urlFriendlyTalkTitle": "afterparty-at-three-sisters-pub",
+				"talkDescription": "After the conference we're heading over to the Three Sisters Pub for some drinks. Your conference badge comes with 2 free drink tickets!",
+				"type": "Social Event",
+				"startDate": "2014-09-05T17:40:00+02:00",
+				"duration": 0,
+				"stub": "ac251",
+				"averageRating": 0,
+				"commentsEnabled": 1,
+				"commentCount": 0,
+				"starred": false,
+				"starredCount": 0,
+				"speakers": [],
+				"uri": "https:\/\/api.joind.in\/v2.1\/talks\/11737",
+				"verboseUri": "https:\/\/api.joind.in\/v2.1\/talks\/11737?verbose=yes",
+				"websiteUri": "http:\/\/joind.in\/talk\/view\/11737",
+				"commentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11737\/comments",
+				"starredUri": "https:\/\/api.joind.in\/v2.1\/talks\/11737\/starred",
+				"verboseCommentsUri": "https:\/\/api.joind.in\/v2.1\/talks\/11737\/comments?verbose=yes",
+				"eventUri": "https:\/\/api.joind.in\/v2.1\/events\/2487",
+				"platforms": []
+			}]
+		}
+	},
+	"practicalInfo": "<b>About Endpoint<\/b> <br\/>\n<br\/>\nThe conference is by API developers, for API developers.\nWe have two tracks with a mix of generic and platform specific talks;\nthe conference is designed in such a way that whether you\u2019re a PHP, Ruby,\nPython, .NET or other platform developer, or whether you develop APIs for apps,\nwebsites or other clients, there\u2019s always a session that should be of interest.\nThe schedule contains many industry experts and can be found <a href=\"app:\/\/schedule\">here<\/a>.\nThe venue is epic, it\u2019s the 1920\u2032s classic Tuschinski Theater\nin Amsterdam.<br\/>\n<br\/>\n<b>Target audience<\/b> <br\/>\n<br\/>\nEndpoint is targeted at developers working with API\/backend technology.\nThere will be talks targeted at a specific platform and talks of a more\nplatform independent nature. We welcome independent developers, freelancers\nand developers working for a company \u2013 It doesn\u2019t matter who you are or where\nyou work, if you work with API technology you\u2019ll enjoy this conference. <br\/>\n<br\/>\n<b>Location<\/b><br\/>\n<br\/>\n<b>Tuschinski Theater <\/b> (near Rembrandt Plein) <br\/>\nReguliersbreestraat 26 <br\/>\nAmsterdam <br\/>\n<br\/>\nWe organize all our conferences in the most inspiring community for developers:\nAppsterdam. Founded by Mike Lee, appsterdam is a growing European community of\napp developers located in or near Amsterdam. Visit the <a href=\"http:\/\/appsterdam.rs\/\">Appsterdam website<\/a>\nfor more information about this vibrant community of developers or to become a member.\nThe conference is open to a world wide audience and we hope it will be an\nopportunity for many developers to get a sense of the great atmosphere in Appsterdam!<br\/>\n<br\/>\nAs for the venue, we looked hard to find a location that is easy to reach but also inspiring. \nThe conference will be held in the Tuschinski Theater. According to wikipedia it is \n\u2018considered one of the most beautiful cinemas in the world\u2019. This means that we\u2019ll not \nonly have presentations literally on the big screen, it means we\u2019ll have comfy chairs \nto enjoy the conference. We were also very interested in this venue because of its \nexcellent \u2018hallway track\u2019. This unofficial track in between or during sessions where you \nmeet other developers and speakers is just as valuable as the main content tracks, \nand Tuschinski is a great place to talk to people or to just hang out.\n",
+	"description": "Endpoint is a conference by and for API and backend developers. It caters to PHP, Python, Ruby and other developers and focuses on API design, best practices, tools and coding techniques."
+}
